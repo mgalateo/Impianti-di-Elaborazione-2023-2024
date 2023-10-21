@@ -15,6 +15,7 @@ csv_files.sort(key=lambda file: os.path.basename(file))
 # Crea una matrice Pandas con le colonne desiderate
 results = pd.DataFrame(columns=[
     "File",
+    "CTT",
     "Duration",
     "nRichiesteTot",
     "nRichiesteOk",
@@ -31,6 +32,8 @@ matrice= pd.DataFrame()
 # Itera sulla lista di percorsi e calcola il throughput e il tempo di risposta medio per ciascun file
 for csv_file in csv_files:
     df = pd.read_csv(csv_file)
+    ctt=csv_file.replace("Dati/", "")
+    ctt = ctt.split("C")[0]
     df['responseCode'] = df['responseCode'].astype(str)
     nRichiesteTot=len(df)
     durataMax=max(df['timeStamp'])
@@ -56,6 +59,7 @@ for csv_file in csv_files:
     # Aggiungi i dati alla matrice Pandas
     results.loc[len(results)] = [
         csv_file,
+        ctt,
         duration,
         nRichiesteTot,
         nRichiesteOk,
@@ -66,19 +70,19 @@ for csv_file in csv_files:
         Throughput,
         responseTime2,
     ]
+#rendo CTT un intero
+results['CTT'] = results['CTT'].astype(int)
+results = results.sort_values(by=["CTT","File"])
+
 
 # Salva il DataFrame in un file CSV
 results.to_csv("statistiche.csv", index=False)
+results = results.sort_values(by=["CTT"])
 
-
-#SCRIPT THROUGHPUT
-
-
-# Importa i dati
-df = pd.read_csv("statistiche.csv")
+df=results
 
 #voglio solo label e throughput
-df = df[['File', 'Throughput']]
+df = df[['CTT', 'Throughput']]
 
 #creo tabella "tabellaTh" con nome test e throughput
 tabellaTh = pd.DataFrame(columns=['CTT', 'Throughput'])
@@ -87,10 +91,7 @@ tabellaTh['CTT'] = tabellaTh['CTT'].astype(int)
 #scorro la matrice di tre in tre righe con un ciclo for
 
 for i in range(0, len(df), 3):
-    name=df.iloc[i]['File']
-    name = name.replace("Dati/", "")
-    split = str(name.split("C")[0])
-    name = split
+    name=df.iloc[i]['CTT']
 
 
     df1=df.iloc[i:i+3]
@@ -100,21 +101,11 @@ for i in range(0, len(df), 3):
 #salvo la tabella in un file csv
 tabellaTh.to_csv('tabellaTh.csv', index=False)
 
-#creo un grafico con sull'asse x i CTT e sull'asse y il throughput utilizzando la tabella appena creata
 
-
-tabellaTh.plot(x='CTT', y='Throughput', title='Throughput per CTT', marker='o', color='blue')
-#salvo l'immagine del grafico creato
-plt.savefig('throughput_per_ctt.png')
-
-
-#SCRIPT RESPONSE TIME
-
-# Importa i dati
-df = pd.read_csv("statistiche.csv")
+df=results
 
 #voglio solo label e throughput
-df = df[['File', 'ResponseTime']]
+df = df[['CTT', 'ResponseTime']]
 
 #creo tabella "tabellaTh" con CTT e RT
 tabellaRT = pd.DataFrame(columns=['CTT', 'ResponseTime'])
@@ -122,10 +113,7 @@ tabellaRT = pd.DataFrame(columns=['CTT', 'ResponseTime'])
 #scorro la matrice di tre in tre righe con un ciclo for
 
 for i in range(0, len(df), 3):
-    name=df.iloc[i]['File']
-    name = name.replace("Dati/", "")
-    split = str(name.split("C")[0])
-    name = split
+    name=df.iloc[i]['CTT']
 
 
     df1=df.iloc[i:i+3]
@@ -135,43 +123,59 @@ for i in range(0, len(df), 3):
 #salvo la tabella in un file csv
 tabellaRT.to_csv('tabellaRT.csv', index=False)
 
-#creo un grafico con sull'asse x i CTT e sull'asse y il response time utilizzando la tabella appena creata
-
-
-tabellaRT.plot(x='CTT', y='ResponseTime', title='Response Time per CTT', marker='o', color='blue')
-
-#salvo l'immagine del grafico creato
-plt.savefig('response_time_per_ctt.png')
-
-#SCRIPT POWER
-#leggo tabellaRT.csv e tabellaTh.csv e calcolo il power per ogni CTT che è uguale a throughput/RT
-
-# Importa i dati
-df = pd.read_csv("tabellaTh.csv")
-df2 = pd.read_csv("tabellaRT.csv")
-
 #creo la tabella power per ctt
-tabellaPower = pd.DataFrame(columns=['CTT', 'Power'])
+tabellafinale = pd.DataFrame(columns=['CTT','Throughput','Response Time','Power'])
+tabellafinale['CTT']=tabellaTh['CTT']
+tabellafinale['Throughput']=tabellaTh['Throughput']
+tabellafinale['Response Time']=tabellaRT['ResponseTime']
+tabellafinale['Power']=tabellaTh['Throughput']/tabellaRT['ResponseTime']
 
-#scorro la matrice df
+tabellafinale.to_csv('tabellafinale.csv', index=False)
+
+df=tabellafinale
+
+#divido tabellafinale in due tabelle, una con ctt<7000 e una con ctt>7000
+tabellafinale1 = pd.DataFrame(columns=['CTT','Throughput','Response Time','Power'])
+tabellafinale2 = pd.DataFrame(columns=['CTT','Throughput','Response Time','Power'])
 
 for i in range(0, len(df)):
-    name=df.iloc[i]['CTT']
-    th=df.iloc[i]['Throughput']
-    rt=df2.iloc[i]['ResponseTime']
-    power=th/rt
-    tabellaPower.loc[i]=[name, power]
 
-#salvo la tabella in un file csv
-tabellaPower.to_csv('tabellaPower.csv', index=False)
-
-#creo un grafico con sull'asse x i CTT e sull'asse y il power utilizzando la tabella appena creata
+    if df.iloc[i]['CTT']<=6500:
+        tabellafinale1.loc[i]=[df.iloc[i]['CTT'],df.iloc[i]['Throughput'],df.iloc[i]['Response Time'],df.iloc[i]['Power']]
+    if df.iloc[i]['CTT']>=6500:
+        tabellafinale2.loc[i]=[df.iloc[i]['CTT'],df.iloc[i]['Throughput'],df.iloc[i]['Response Time'],df.iloc[i]['Power']]
 
 
-tabellaPower.plot(x='CTT', y='Power', title='Power per CTT', marker='o', color='blue')
-#salvo l'immagine del grafico creato
-plt.savefig('power_per_ctt.png')
+# Crea il grafico
+plt.figure(figsize=(10, 6))
+plt.plot(tabellafinale2['CTT'], tabellafinale2['Power'], 'o--', linewidth=1,color='black')
+plt.plot(tabellafinale1['CTT'], tabellafinale1['Power'], 'o-', linewidth=2,color='green')
+#plt.plot(df["CTT"], df["Power"], marker="o", color="green")
+plt.xlabel("CTT")
+plt.ylabel("Power")
+plt.title("Power per CTT")
+plt.grid(True)
+plt.savefig("power_per_ctt_con_sfumatura.png")
+
+# Crea il grafico
+plt.figure(figsize=(10, 6))
+plt.plot(tabellafinale2['CTT'], tabellafinale2['Throughput'], 'o--', linewidth=1,color='black')
+plt.plot(tabellafinale1['CTT'], tabellafinale1['Throughput'], 'o-', linewidth=2,color='blue')
+#plt.plot(df["CTT"], df["Power"], marker="o", color="green")
+plt.xlabel("CTT")
+plt.ylabel("Throughput")
+plt.title("Throughput per CTT")
+plt.grid(True)
+plt.savefig("throughput_per_ctt_con_sfumatura.png")
 
 
-#da rivedere grafici distanza asse x non corretta
-
+# Crea il grafico
+plt.figure(figsize=(10, 6))
+plt.plot(tabellafinale2['CTT'], tabellafinale2['Response Time'], 'o--', linewidth=1,color='black')
+plt.plot(tabellafinale1['CTT'], tabellafinale1['Response Time'], 'o-', linewidth=2,color='Red')
+#plt.plot(df["CTT"], df["Power"], marker="o", color="green")
+plt.xlabel("CTT")
+plt.ylabel("Response Time")
+plt.title("Response Time per CTT")
+plt.grid(True)
+plt.savefig("response_time_per_ctt_con_sfumatura.png")
