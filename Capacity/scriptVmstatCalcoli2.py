@@ -122,9 +122,9 @@ tabellafinale2 = pd.DataFrame(columns=["ctt", "r", "b", "swpd", "libero", "buff"
 
 for i in range(0, len(tabellaMedia)):
 
-    if tabellaMedia.iloc[i]['ctt']<=6500:
+    if tabellaMedia.iloc[i]['ctt']<=6000:
         tabellafinale1.loc[i]= tabellaMedia.iloc[i]
-    if tabellaMedia.iloc[i]['ctt']>=6500:
+    if tabellaMedia.iloc[i]['ctt']>=6000:
         tabellafinale2.loc[i]= tabellaMedia.iloc[i]
 
 # Crea il grafico

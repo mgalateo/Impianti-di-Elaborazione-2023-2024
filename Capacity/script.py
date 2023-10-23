@@ -140,9 +140,9 @@ tabellafinale2 = pd.DataFrame(columns=['CTT','Throughput','Response Time','Power
 
 for i in range(0, len(df)):
 
-    if df.iloc[i]['CTT']<=6500:
+    if df.iloc[i]['CTT']<=6000:
         tabellafinale1.loc[i]=[df.iloc[i]['CTT'],df.iloc[i]['Throughput'],df.iloc[i]['Response Time'],df.iloc[i]['Power']]
-    if df.iloc[i]['CTT']>=6500:
+    if df.iloc[i]['CTT']>=6000:
         tabellafinale2.loc[i]=[df.iloc[i]['CTT'],df.iloc[i]['Throughput'],df.iloc[i]['Response Time'],df.iloc[i]['Power']]
 
 
@@ -156,6 +156,7 @@ plt.ylabel("Power")
 plt.title("Power per CTT")
 plt.grid(True)
 plt.savefig("power_per_ctt_con_sfumatura.png")
+plt.close()
 
 # Crea il grafico
 plt.figure(figsize=(10, 6))
@@ -167,6 +168,7 @@ plt.ylabel("Throughput")
 plt.title("Throughput per CTT")
 plt.grid(True)
 plt.savefig("throughput_per_ctt_con_sfumatura.png")
+plt.close()
 
 
 # Crea il grafico
@@ -179,3 +181,15 @@ plt.ylabel("Response Time")
 plt.title("Response Time per CTT")
 plt.grid(True)
 plt.savefig("response_time_per_ctt_con_sfumatura.png")
+plt.close()
+
+# Crea il grafico
+#plt.plot(tabellafinale2['CTT'], tabellafinale2['Response Time'], 'o--', linewidth=1,color='black')
+plt.plot(tabellafinale1['CTT'], tabellafinale1['Response Time'], 'o-', linewidth=2,color='Red')
+#plt.plot(df["CTT"], df["Power"], marker="o", color="green")
+plt.xlabel("CTT")
+plt.ylabel("Response Time ZOOM")
+plt.title("Response Time per CTT")
+plt.grid(True)
+plt.savefig("response_time_per_ctt_zoom.png")
+plt.close()
