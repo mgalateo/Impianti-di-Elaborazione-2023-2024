@@ -134,7 +134,7 @@ tabellafinale.to_csv('tabellafinale.csv', index=False)
 
 df=tabellafinale
 
-#divido tabellafinale in due tabelle, una con ctt<7000 e una con ctt>7000
+
 tabellafinale1 = pd.DataFrame(columns=['CTT','Throughput','Response Time','Power'])
 tabellafinale2 = pd.DataFrame(columns=['CTT','Throughput','Response Time','Power'])
 
