@@ -1,0 +1,7 @@
+NomeRichiesta,nRichieste,Throughput,ThroughputNorm
+ExtraLarge HTTP Request,1732,5.773333333333333,1.0392
+ExtraSmall HTTP Request,1665,5.55,0.9990000000000001
+Large HTTP Request,1704,5.68,1.0224
+Medium HTTP Request,1689,5.63,1.0134
+Small HTTP Request,1625,5.416666666666667,0.9750000000000001
+SuperLarge HTTP Request,1683,5.61,1.0098
