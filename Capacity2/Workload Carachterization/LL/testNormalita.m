@@ -16,6 +16,7 @@ disp(data);
 disp('Dati di testo:');
 disp(text);
 
+componentiNormali=[]
 
 for i = 1:9
     % Accedi alla colonna
@@ -34,6 +35,10 @@ for i = 1:9
     else
         disp('Il test non rigetta l ipotesi nulla a livello di significatività del 5%.');
         disp('La componente Principale è NORMALE')
+        
+        componentiNormali = [componentiNormali, text(i)];
     end
 end
 
+disp('\n');
+disp(componentiNormali);
