@@ -27,7 +27,7 @@ disp(['Statistiche del test: ', num2str(stats.tstat)]);
 
 % Confronta il livello di significatività
 alpha = 0.05;
-if p < alpha
+if h == 1
     disp('Il test rigetta l ipotesi nulla a livello di significatività del 5%.');
     disp('I due campioni non provengono dalla stessa distribuzione.');
 else
