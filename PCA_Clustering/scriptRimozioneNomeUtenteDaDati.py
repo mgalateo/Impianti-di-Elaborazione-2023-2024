@@ -26,10 +26,15 @@ df.columns = df.columns.str.replace(r'\\', '')
 
 df.columns = df.columns.str.replace("\\", "/",)
 
+#elimino tutti i caratteti prima del primo slash compreso (le stringhe possono contenere più slash)
+df.columns = df.columns.str.replace(r'^[^/]+/', '', regex=True)
 
-df.columns = df.columns.map(lambda x: re.sub(r"[A-Za-z]+/", "", x))
 
+#df.columns = df.columns.map(lambda x: re.sub(r"[A-Za-z]+/", "", x))
+
+#elimino (_Total) se presente
 df.columns = df.columns.str.replace("(_Total)", "",)
+
 
 
 #creo un file csv con i dati puliti chiamato Dati.csv
