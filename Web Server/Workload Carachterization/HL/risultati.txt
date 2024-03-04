@@ -1,0 +1,12 @@
+B = 31128.2
+DEV_LOST_per = 0.0411764
+DEV_PCA = 31618.8
+DEV_PCA_CL_per = 0.958824
+DEV_PCA_per = 0.973936
+DEV_TOT = 32465
+N_cluster = 18
+N_pca = 4
+W = 490.631
+ans = 6
+centroid = 2.68817-5.817530.432273-3.90662
+

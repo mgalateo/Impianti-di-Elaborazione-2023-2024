@@ -1,0 +1,181 @@
+Time: 15898 ms
+Time: 15801 ms
+Time: 15619 ms
+Time: 15548 ms
+Time: 15527 ms
+
+Time: 19998 ms
+Time: 15291 ms
+Time: 15214 ms
+Time: 15339 ms
+Time: 15137 ms
+
+Time: 17005 ms
+Time: 16899 ms
+Time: 16343 ms
+Time: 16722 ms
+Time: 16095 ms
+
+Time: 15849 ms
+Time: 15095 ms
+Time: 14961 ms
+Time: 15327 ms
+Time: 15083 ms
+
+Time: 16196 ms
+Time: 15053 ms
+Time: 15321 ms
+Time: 15088 ms
+Time: 16170 ms
+
+Time: 16012 ms
+Time: 14892 ms
+Time: 14965 ms
+Time: 14798 ms
+Time: 14679 ms
+
+Time: 16367 ms
+Time: 15209 ms
+Time: 14889 ms
+Time: 15373 ms
+Time: 15417 ms
+
+Time: 16181 ms
+Time: 16264 ms
+Time: 15351 ms
+Time: 16270 ms
+Time: 17025 ms
+
+Time: 16407 ms
+Time: 15148 ms
+Time: 14999 ms
+Time: 15148 ms
+Time: 15510 ms
+
+Time: 17028 ms
+Time: 16071 ms
+Time: 16434 ms
+Time: 16610 ms
+Time: 16469 ms
+
+Time: 16091 ms
+Time: 16035 ms
+Time: 15426 ms
+Time: 15977 ms
+Time: 16015 ms
+
+Time: 16705 ms
+Time: 15864 ms
+Time: 16051 ms
+Time: 16069 ms
+Time: 16076 ms
+
+Time: 16480 ms
+Time: 15463 ms
+Time: 14992 ms
+Time: 15344 ms
+Time: 15005 ms
+
+Time: 16522 ms
+Time: 15825 ms
+Time: 16742 ms
+Time: 16421 ms
+Time: 16033 ms
+
+Time: 16245 ms
+Time: 15073 ms
+Time: 15258 ms
+Time: 15108 ms
+Time: 15030 ms
+
+Time: 16166 ms
+Time: 15554 ms
+Time: 15307 ms
+Time: 15374 ms
+Time: 15070 ms
+
+Time: 16897 ms
+Time: 17716 ms
+Time: 15970 ms
+Time: 16463 ms
+Time: 17259 ms
+
+Time: 15811 ms
+Time: 15574 ms
+Time: 14895 ms
+Time: 14878 ms
+Time: 15127 ms
+
+Time: 16434 ms
+Time: 15609 ms
+Time: 15433 ms
+Time: 15029 ms
+Time: 15490 ms
+
+Time: 16150 ms
+Time: 15069 ms
+Time: 14969 ms
+Time: 15104 ms
+Time: 15181 ms
+
+Time: 15649 ms
+Time: 15205 ms
+Time: 15376 ms
+Time: 15300 ms
+Time: 15374 ms
+
+Time: 15981 ms
+Time: 15400 ms
+Time: 16123 ms
+Time: 14894 ms
+Time: 15198 ms
+
+Time: 15537 ms
+Time: 15815 ms
+Time: 15259 ms
+Time: 15258 ms
+Time: 14885 ms
+
+Time: 16065 ms
+Time: 15630 ms
+Time: 15169 ms
+Time: 15564 ms
+Time: 15387 ms
+
+
+Time: 15998 ms
+Time: 15803 ms
+Time: 15483 ms
+Time: 15546 ms
+Time: 15544 ms
+
+Time: 16079 ms
+Time: 14885 ms
+Time: 14988 ms
+Time: 14935 ms
+Time: 15043 ms
+
+Time: 16958 ms
+Time: 16079 ms
+Time: 15434 ms
+Time: 15768 ms
+Time: 15443 ms
+
+Time: 16454 ms
+Time: 15792 ms
+Time: 15599 ms
+Time: 15775 ms
+Time: 16542 ms
+
+Time: 16166 ms
+Time: 15765 ms
+Time: 15323 ms
+Time: 15353 ms
+Time: 15068 ms
+
+Time: 16761 ms
+Time: 17307 ms
+Time: 15624 ms
+Time: 15571 ms
+Time: 15658 ms
+

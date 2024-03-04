@@ -1,0 +1,7 @@
+== Total error entries ==
+80854
+== Breakup by NODE* ==
+['tg-c401 -> 62340', 'tg-master -> 4098', 'tg-c572 -> 4030', 'tg-s044 -> 3224', 'tg-c238 -> 1273', 'tg-c242 -> 1067', 'tg-c648 -> 643', 'tg-login3 -> 382', 'tg-c117 -> 268', 'tg-c669 -> 267']
+* only the 10 most occurring nodes are reported
+== Breakup by CATEGORY ==
+['DEV -> 57248', 'MEM -> 12819', 'I-O -> 5547', 'NET -> 3702', 'PRO -> 1504', 'OTH -> 34']

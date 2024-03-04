@@ -1,0 +1,2 @@
+Le componenti che risultano normali sia in LL che LL' sono le componenti 1 3 7, sulle quali possiamo applicare un test parametrico (ttest2) per valutare che provengano dalla stesso workload.
+

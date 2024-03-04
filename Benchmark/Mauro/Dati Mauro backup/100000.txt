@@ -1,0 +1,60 @@
+Time: 43807 ms
+Time: 40642 ms
+Time: 37671 ms
+Time: 37215 ms
+Time: 37078 ms
+
+Time: 50511 ms
+Time: 35142 ms
+Time: 33974 ms
+Time: 35777 ms
+Time: 35733 ms
+
+Time: 37529 ms
+Time: 39281 ms
+Time: 36877 ms
+Time: 36583 ms
+Time: 36619 ms
+
+Time: 43975 ms
+Time: 50567 ms
+Time: 52148 ms
+Time: 52115 ms
+Time: 51321 ms
+
+Time: 35757 ms
+Time: 36936 ms
+Time: 37611 ms
+Time: 38239 ms
+Time: 36123 ms
+
+Time: 41631 ms
+Time: 38243 ms
+Time: 37263 ms
+Time: 36672 ms
+Time: 42527 ms
+
+Time: 44057 ms
+Time: 42541 ms
+Time: 43360 ms
+Time: 42050 ms
+Time: 41816 ms
+
+Time: 43022 ms
+Time: 36919 ms
+Time: 37381 ms
+Time: 36471 ms
+Time: 36510 ms
+
+Time: 36572 ms
+Time: 37219 ms
+Time: 36906 ms
+Time: 36609 ms
+Time: 38853 ms
+
+Time: 37920 ms
+Time: 36762 ms
+Time: 37122 ms
+Time: 35846 ms
+Time: 40674 ms
+

@@ -1,0 +1,4 @@
+1168780332 tg-c550 NET Additional sense indicates Mechanical positioning error
+1168780421 tg-c550 NET Additional sense indicates Mechanical positioning error
+1168780436 tg-c550 NET Additional sense indicates Mechanical positioning error
+1168780451 tg-c550 NET Additional sense indicates Mechanical positioning error

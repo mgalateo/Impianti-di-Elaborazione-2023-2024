@@ -1,0 +1,270 @@
+Time: 368651 ms
+Time: 392623 ms
+Time: 367426 ms
+Time: 345110 ms
+Time: 366262 ms
+
+Time: 371841 ms
+Time: 371729 ms
+Time: 383365 ms
+Time: 397311 ms
+Time: 374026 ms
+
+Time: 387989 ms
+Time: 372223 ms
+Time: 375131 ms
+Time: 417619 ms
+Time: 383402 ms
+
+Time: 354468 ms
+Time: 374028 ms
+Time: 337238 ms
+Time: 369623 ms
+Time: 348303 ms
+
+Time: 384940 ms
+Time: 371126 ms
+Time: 362188 ms
+Time: 369017 ms
+Time: 375738 ms
+
+Time: 376216 ms
+Time: 374478 ms
+Time: 382424 ms
+Time: 373262 ms
+Time: 375070 ms
+
+Time: 396544 ms
+Time: 402477 ms
+Time: 380618 ms
+Time: 362783 ms
+Time: 363617 ms
+
+Time: 398833 ms
+Time: 369387 ms
+Time: 366382 ms
+Time: 367778 ms
+Time: 365639 ms
+
+Time: 376410 ms
+Time: 386111 ms
+Time: 498012 ms
+Time: 517390 ms
+Time: 457505 ms
+
+Time: 467991 ms
+Time: 453264 ms
+Time: 446794 ms
+Time: 431309 ms
+Time: 420664 ms
+
+Time: 366240 ms
+Time: 365835 ms
+Time: 371268 ms
+Time: 485861 ms
+Time: 436113 ms
+
+Time: 372241 ms
+Time: 369537 ms
+Time: 365288 ms
+Time: 369560 ms
+Time: 366581 ms
+
+Time: 481452 ms
+Time: 437028 ms
+Time: 401001 ms
+Time: 427380 ms
+Time: 435836 ms
+
+Time: 388017 ms
+Time: 377794 ms
+Time: 367801 ms
+Time: 381688 ms
+Time: 381014 ms
+
+Time: 391373 ms
+Time: 368425 ms
+Time: 375315 ms
+Time: 393468 ms
+Time: 391595 ms
+
+Time: 533951 ms
+Time: 377298 ms
+Time: 435890 ms
+Time: 507677 ms
+Time: 507784 ms
+
+Time: 353605 ms
+Time: 355275 ms
+Time: 325819 ms
+Time: 325039 ms
+Time: 326241 ms
+
+Time: 379717 ms
+Time: 443080 ms
+Time: 454796 ms
+Time: 437271 ms
+Time: 437308 ms
+
+Time: 437807 ms
+Time: 481249 ms
+Time: 572474 ms
+Time: 478363 ms
+Time: 513694 ms
+
+Time: 402850 ms
+Time: 381926 ms
+Time: 365848 ms
+Time: 364152 ms
+Time: 369078 ms
+
+Time: 393645 ms
+Time: 404149 ms
+Time: 391100 ms
+Time: 402272 ms
+Time: 382515 ms
+
+Time: 400105 ms
+Time: 442269 ms
+Time: 613101 ms
+Time: 404149 ms
+Time: 460088 ms
+
+Time: 384347 ms
+Time: 377537 ms
+Time: 363264 ms
+Time: 370340 ms
+Time: 366730 ms
+
+Time: 383752 ms
+Time: 414511 ms
+Time: 367948 ms
+Time: 371442 ms
+Time: 361957 ms
+
+Time: 444391 ms
+Time: 388852 ms
+Time: 422191 ms
+Time: 415776 ms
+Time: 425990 ms
+
+Time: 397819 ms
+Time: 410015 ms
+Time: 392317 ms
+Time: 397895 ms
+Time: 379279 ms
+
+Time: 420533 ms
+Time: 420915 ms
+Time: 425409 ms
+Time: 385020 ms
+Time: 389768 ms
+
+Time: 422230 ms
+Time: 423674 ms
+Time: 375254 ms
+Time: 405341 ms
+Time: 381222 ms
+
+Time: 369161 ms
+Time: 366663 ms
+Time: 370570 ms
+Time: 358706 ms
+Time: 381504 ms
+
+Time: 387460 ms
+Time: 368785 ms
+Time: 416470 ms
+Time: 388194 ms
+Time: 366979 ms
+
+Time: 384156 ms
+Time: 371774 ms
+Time: 413237 ms
+Time: 395954 ms
+Time: 377339 ms
+
+Time: 378372 ms
+Time: 402928 ms
+Time: 402641 ms
+Time: 417223 ms
+Time: 391324 ms
+
+Time: 404725 ms
+Time: 382246 ms
+Time: 423301 ms
+Time: 381363 ms
+Time: 383421 ms
+
+Time: 371623 ms
+Time: 383379 ms
+Time: 379261 ms
+Time: 375371 ms
+Time: 366538 ms
+
+Time: 393096 ms
+Time: 444542 ms
+Time: 399990 ms
+Time: 404469 ms
+Time: 410463 ms
+
+Time: 414932 ms
+Time: 383755 ms
+Time: 402060 ms
+Time: 472441 ms
+Time: 380742 ms
+
+Time: 367323 ms
+Time: 387145 ms
+Time: 393303 ms
+Time: 415900 ms
+Time: 366737 ms
+
+Time: 363094 ms
+Time: 371812 ms
+Time: 403894 ms
+Time: 426014 ms
+Time: 362991 ms
+
+Time: 439224 ms
+Time: 424360 ms
+Time: 594475 ms
+Time: 393826 ms
+Time: 366966 ms
+
+Time: 356089 ms
+Time: 384321 ms
+Time: 369776 ms
+Time: 369606 ms
+Time: 490940 ms
+
+Time: 442002 ms
+Time: 602461 ms
+Time: 477834 ms
+Time: 545835 ms
+Time: 632349 ms
+
+Time: 356660 ms
+Time: 388922 ms
+Time: 360165 ms
+Time: 347598 ms
+Time: 392801 ms
+
+Time: 357316 ms
+Time: 351901 ms
+Time: 351274 ms
+Time: 405596 ms
+Time: 353286 ms
+
+Time: 355936 ms
+Time: 356745 ms
+Time: 355205 ms
+Time: 346190 ms
+Time: 339747 ms
+
+Time: 369826 ms
+Time: 409194 ms
+Time: 440683 ms
+Time: 379754 ms
+Time: 360169 ms
+

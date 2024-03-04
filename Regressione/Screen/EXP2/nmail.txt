@@ -1,0 +1,3 @@
+Pendenza: -0.0005973715651135006 
+Intervallo di confidenza al 95%: [-0.0011248593925759281,0.0]  
+Intercetta: 592.3936678614098

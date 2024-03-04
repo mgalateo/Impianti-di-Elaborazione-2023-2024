@@ -1,0 +1,162 @@
+Time: 179 ms
+Time: 167 ms
+Time: 187 ms
+Time: 165 ms
+Time: 165 ms
+
+Time: 183 ms
+Time: 184 ms
+Time: 177 ms
+Time: 169 ms
+Time: 191 ms
+
+Time: 183 ms
+Time: 182 ms
+Time: 179 ms
+Time: 182 ms
+Time: 179 ms
+
+Time: 206 ms
+Time: 174 ms
+Time: 180 ms
+Time: 176 ms
+Time: 174 ms
+
+Time: 170 ms
+Time: 170 ms
+Time: 174 ms
+Time: 170 ms
+Time: 168 ms
+
+Time: 191 ms
+Time: 167 ms
+Time: 161 ms
+Time: 161 ms
+Time: 167 ms
+
+Time: 169 ms
+Time: 176 ms
+Time: 166 ms
+Time: 168 ms
+Time: 169 ms
+
+Time: 170 ms
+Time: 173 ms
+Time: 165 ms
+Time: 173 ms
+Time: 165 ms
+
+Time: 181 ms
+Time: 177 ms
+Time: 172 ms
+Time: 232 ms
+Time: 187 ms
+
+Time: 178 ms
+Time: 165 ms
+Time: 166 ms
+Time: 171 ms
+Time: 187 ms
+
+Time: 171 ms
+Time: 181 ms
+Time: 176 ms
+Time: 172 ms
+Time: 166 ms
+
+Time: 181 ms
+Time: 181 ms
+Time: 175 ms
+Time: 175 ms
+Time: 174 ms
+
+Time: 193 ms
+Time: 164 ms
+Time: 166 ms
+Time: 165 ms
+Time: 164 ms
+
+Time: 174 ms
+Time: 173 ms
+Time: 182 ms
+Time: 177 ms
+Time: 177 ms
+
+Time: 169 ms
+Time: 178 ms
+Time: 161 ms
+Time: 161 ms
+Time: 163 ms
+
+Time: 180 ms
+Time: 175 ms
+Time: 173 ms
+Time: 178 ms
+Time: 179 ms
+
+Time: 168 ms
+Time: 165 ms
+Time: 166 ms
+Time: 168 ms
+Time: 179 ms
+
+Time: 185 ms
+Time: 168 ms
+Time: 171 ms
+Time: 175 ms
+Time: 184 ms
+
+Time: 180 ms
+Time: 198 ms
+Time: 177 ms
+Time: 178 ms
+Time: 186 ms
+
+Time: 208 ms
+Time: 189 ms
+Time: 178 ms
+Time: 174 ms
+Time: 178 ms
+
+Time: 175 ms
+Time: 173 ms
+Time: 175 ms
+Time: 171 ms
+Time: 170 ms
+
+Time: 174 ms
+Time: 200 ms
+Time: 187 ms
+Time: 180 ms
+Time: 171 ms
+
+Time: 184 ms
+Time: 191 ms
+Time: 176 ms
+Time: 179 ms
+Time: 185 ms
+
+Time: 170 ms
+Time: 197 ms
+Time: 195 ms
+Time: 171 ms
+Time: 174 ms
+
+Time: 179 ms
+Time: 177 ms
+Time: 177 ms
+Time: 176 ms
+Time: 173 ms
+
+Time: 184 ms
+Time: 173 ms
+Time: 170 ms
+Time: 169 ms
+Time: 167 ms
+
+Time: 179 ms
+Time: 191 ms
+Time: 218 ms
+Time: 197 ms
+Time: 208 ms
+

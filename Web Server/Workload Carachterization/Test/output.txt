@@ -1,0 +1,54 @@
+componente n      1
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.127
+Statistiche del test: 0.16307
+Il test non rigetta l ipotesi nulla a livello di significatività del 5%.
+La componente Principale è NORMALE
+[Warning: P is less than the smallest tabulated value, returning 0.001.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lillietest', 'C:\Program Files\MATLAB\R2023b\toolbox\stats\stats\lillietest.m', 210)" style="font-weight:bold">lillietest</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\stats\stats\lillietest.m',210,0)">line 210</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testNormalita', 'C:\Users\claud\Desktop\OneDrive - Università di Napoli Federico II\Università\Magistrale\Impianti di Elaborazione\Esercizi\Web Server\Workload Carachterization\Test\testNormalita.m', 36)" style="font-weight:bold">testNormalita</a> (<a href="matlab: opentoline('C:\Users\claud\Desktop\OneDrive - Università di Napoli Federico II\Università\Magistrale\Impianti di Elaborazione\Esercizi\Web Server\Workload Carachterization\Test\testNormalita.m',36,0)">line 36</a>)] 
+componente n      2
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.001
+Statistiche del test: 0.3854
+Il test rigetta l ipotesi nulla a livello di significatività del 5%.
+componente n      3
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.091937
+Statistiche del test: 0.17058
+Il test non rigetta l ipotesi nulla a livello di significatività del 5%.
+La componente Principale è NORMALE
+componente n      4
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.22524
+Statistiche del test: 0.14882
+Il test non rigetta l ipotesi nulla a livello di significatività del 5%.
+La componente Principale è NORMALE
+componente n      5
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.079091
+Statistiche del test: 0.17392
+Il test non rigetta l ipotesi nulla a livello di significatività del 5%.
+La componente Principale è NORMALE
+componente n      6
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.40198
+Statistiche del test: 0.13039
+Il test non rigetta l ipotesi nulla a livello di significatività del 5%.
+La componente Principale è NORMALE
+[Warning: P is greater than the largest tabulated value, returning 0.5.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lillietest', 'C:\Program Files\MATLAB\R2023b\toolbox\stats\stats\lillietest.m', 207)" style="font-weight:bold">lillietest</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\stats\stats\lillietest.m',207,0)">line 207</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testNormalita', 'C:\Users\claud\Desktop\OneDrive - Università di Napoli Federico II\Università\Magistrale\Impianti di Elaborazione\Esercizi\Web Server\Workload Carachterization\Test\testNormalita.m', 36)" style="font-weight:bold">testNormalita</a> (<a href="matlab: opentoline('C:\Users\claud\Desktop\OneDrive - Università di Napoli Federico II\Università\Magistrale\Impianti di Elaborazione\Esercizi\Web Server\Workload Carachterization\Test\testNormalita.m',36,0)">line 36</a>)] 
+componente n      7
+
+H0: I dati provengono da una distribuzione normale
+p-value: 0.5
+Statistiche del test: 0.11044
+Il test non rigetta l ipotesi nulla a livello di significatività del 5%.
+La componente Principale è NORMALE
